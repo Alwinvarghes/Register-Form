@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    min-height: 300px;
+
+} */
+
+body{
+    height: 100vh;
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center;
+background-image:url("https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg"); 
+}
+
+
+#form{
+    width: 400px;
+    font-size: 12px;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 20vh auto 0 auto;
+    box-shadow: 9px;
+    background-color: rgb(209, 200, 226);
+    
+}
+        
+    #form h1{
+        color: #0f2027;
+        text-align: center;
+}
+
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 9px;
+    background-color: rgb(10, 83, 83);
+    width:100%;
+    border: none;
+    color:white;
+    font-size: large;
+    } 
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.03);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.28s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+.input-control{
+
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+font-size: 16px;
+}
+.input-control input{
+    border-radius: 9px;
+    display: block;
+    font-size: 19px;
+    padding: 10px;
+    /* width: 100%; */
+    margin-top: 15px;
+    height: 100%;
+    border: none;
+}
+.input-control label{
+
+    font-weight: bold;
+    font-size: 15px;
+}
+.input-control input:focus{
+    outline: 0;
+}
+
+.input-control.success input{
+    border-color: green;
+}
+
+
+.input-control.error input{
+    border-color:red;
+}
+
+
+.input-control .error{
+    color:red;
+    font-size: 15px;
+    height: 13px;
+}
